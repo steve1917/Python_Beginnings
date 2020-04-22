@@ -1,6 +1,6 @@
 # convert.py
 # 	A program to convert Celsius temps to Fahrenheit
-#by: Steve Bunel
+#by: Steve B
 
 def main():
 
