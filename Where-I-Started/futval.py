@@ -5,11 +5,14 @@
 def main():
 	print("This program calculates the future value")
 	print("of a 10-year investment.")
+	
 
 	principal = eval(input("Enter the initial principal: "))
 	apr = eval(input("Enter the anual interest rate: "))
+	money = principal
+
 	for i in range(10):
-		principal = principal * (1 + apr)
+		money += money * (apr/100)
 
 	print("The Value in 10 years is: ", principal)
 
