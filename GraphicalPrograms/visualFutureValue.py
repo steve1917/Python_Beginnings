@@ -61,6 +61,7 @@ def main():
 
     #wait for another click to exit
     messageExit.setText("Click anywhere to quit.")
+    messageExit.setTextColor("red")
     win.getMouse()
 
 main()
