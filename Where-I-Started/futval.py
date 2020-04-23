@@ -5,7 +5,6 @@
 def main():
 	print("This program calculates the future value")
 	print("of a 10-year investment.")
-	
 
 	principal = eval(input("Enter the initial principal: "))
 	apr = eval(input("Enter the anual interest rate: "))
