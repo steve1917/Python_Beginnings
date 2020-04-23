@@ -1,4 +1,4 @@
-#Create a triagle with this program
+#Create a triangle with this program
 
 from graphics import *
 
